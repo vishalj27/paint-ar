@@ -4,7 +4,7 @@
 This project is a simple AR (Augmented Reality) application that allows users to paint in AR using WebXR. The painted strokes are broadcasted in real-time using WebSockets, allowing multiple users to join and view the painting in a shared AR space.
 
 ## Features
-- **AR Painting:** Users can paint in AR using a Meta Quest 3 device or mobile phone .
+- **AR Painting:** Users can paint in AR using a Meta Quest 3 device or a mobile phone.
 - **Multi-User Collaboration:** Paint strokes are broadcasted via WebSockets, so other users can see the painting in real-time.
 - **WebXR Support:** The app leverages Three.js and WebXR to render AR experiences in the browser.
 - **Real-Time Communication:** Uses Socket.io to transmit paint data to all connected clients.
@@ -67,8 +67,8 @@ Alternatively, you can run the application inside a Docker container.
 ```
 ├── public/               # Frontend files
 │   ├── index.html        # Main webpage
-│   ├── app.js           # Three.js AR app
-│   ├── libs/            # Three.js & dependencies
+│   ├── app.js            # Three.js AR app
+│   ├── libs/             # Three.js & dependencies
 ├── https-certificate/    # Folder for HTTPS certificates
 ├── server.js            # Backend server (Node.js & Socket.io)
 ├── Dockerfile           # Docker configuration
@@ -76,4 +76,3 @@ Alternatively, you can run the application inside a Docker container.
 ├── package.json         # Project dependencies
 └── README.md            # Project documentation
 ```
-
